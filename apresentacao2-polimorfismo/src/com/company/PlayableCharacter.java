@@ -1,43 +1,28 @@
 package com.company;
 
+enum Alignment{
+    good,
+    evil,
+    neutral
+        }
+
 public abstract class PlayableCharacter extends Character {
-    private String name;
-    private int hp;
-    private int damage;
 
-    public PlayableCharacter(String name, int hp, int damage)
+    private Alignment alignment;
+    private String player;
+
+    public PlayableCharacter(String name, int hp, int damage, Alignment alignment, String player)
     {
-        this.name = name;
-        this.hp = hp;
-        this.damage = damage;
+        super(name, hp, damage);
+        this.alignment = alignment;
+        this.player = player;
     }
 
-    protected void Attack(PlayableCharacter target, int damage) // melhorar esse método, muito procedural !!!!!!!!!
-    {
-        System.out.println(name + " atacou " + target.getName() + ", causando " + damage + " de dano!");
+    public Alignment getAlignment() {
+        return alignment;
     }
 
-    public void TakeDamage(int damage)
-    {
-        hp-=damage;
-
-        if(hp<0)
-            hp = 0;
+    public String getPlayer() {
+        return player;
     }
-
-    public String getName() {
-        return name;
-    }
-
-    public int getHp() {
-        return hp;
-    }
-
-    public int getDamage() {
-        return damage;
-    }
-
-    public void setDamage(int damage) { this.damage = damage;}
-
-
 }

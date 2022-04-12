@@ -1,9 +1,10 @@
 package com.company;
 
-public class Monster {
-    private String name;
+public abstract class Monster extends Character {
 
-    public String getName() {
-        return name;
+    Monster(String name, int hp, int damage)
+    {
+        super(name, hp, damage);
     }
+
 }

@@ -2,17 +2,18 @@ package com.company;
 
 public class Mage extends PlayableCharacter {
 
-    int magicShield;
-    int mana;
+    private int magicShield;
+    private int mana;
 
-    public Mage(String name, int hp, int damage, int magicShield, int mana)
+    public Mage(String name, int hp, int damage, Alignment alignment, String player, int magicShield, int mana)
     {
-        super(name, hp, damage);
+        super(name, hp, damage, alignment, player);
         this.magicShield = magicShield;
         this.mana = mana;
     }
 
-    public void Attack(PlayableCharacter target) // melhorar esse método, muito procedural !!!!!!!!!
+    @Override
+    public void Attack(Character target)
     {
         if(mana > 0)
         {
@@ -24,7 +25,7 @@ public class Mage extends PlayableCharacter {
         }
     }
 
-    public void CastSpell(PlayableCharacter target)
+    public void CastSpell(Character target)
     {
         mana--;
         System.out.println(getName() + " lancou uma magia em " + target.getName() + ", causando " + getDamage()*2 + " de dano!");

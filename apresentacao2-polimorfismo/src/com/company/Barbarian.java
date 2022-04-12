@@ -3,14 +3,17 @@ package com.company;
 public class Barbarian extends PlayableCharacter {
 
     boolean rage;
+    boolean trickDeath;
 
-    public Barbarian(String name, int hp, int damage)
+    public Barbarian(String name, int hp, int damage, Alignment alignment, String player)
     {
-        super(name, hp, damage);
+        super(name, hp, damage, alignment, player);
         rage = false;
+        trickDeath = true;
     }
 
-    public void Attack(PlayableCharacter target) // melhorar esse método, muito procedural !!!!!!!!!
+    @Override
+    public void Attack(Character target)
     {
         if(rage)
         {
@@ -26,7 +29,14 @@ public class Barbarian extends PlayableCharacter {
     public void TakeDamage(int damage)
     {
         rage = true;
+        if(trickDeath && damage >= super.getHp())
+        {
+            super.Heal((damage - getHp()) + 1);
+            trickDeath = false;
+            System.out.println(getDamage() + " ativou Enganar a Morte!");
+        }
         super.TakeDamage(damage);
     }
 
 }
+

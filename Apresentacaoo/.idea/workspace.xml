@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c11de843-e55c-476f-8b5e-b2ac0cbf98ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/apresentacao2-polimorfismo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/src/com/company/Barbarian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/src/com/company/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/src/com/company/Mage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/src/com/company/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/src/com/company/Monster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../apresentacao2-polimorfismo/src/com/company/PlayableCharacter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Cat.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Pet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="630">
               <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
@@ -111,11 +100,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="408" />
-    <option name="y" value="153" />
-    <option name="width" value="1137" />
-    <option name="height" value="789" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="960" />
+    <option name="y" value="-2" />
+    <option name="width" value="960" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -123,8 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,7 +147,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../apresentacao2-polimorfismo" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -203,9 +192,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="960" y="-2" width="960" height="1082" extended-state="4" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.09605123" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19912472" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -245,6 +234,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Pet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Owner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -263,13 +259,6 @@
             <element signature="method#getPetsNames#0;class#PetShop#0" />
             <element signature="method#RenamePets#0;class#PetShop#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Pet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
