@@ -1,4 +1,4 @@
-package com.company.aves;
+package br.com.panvel.animal.aves;
 
 public class Aguia {
 

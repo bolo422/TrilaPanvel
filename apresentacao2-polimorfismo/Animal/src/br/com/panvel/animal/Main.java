@@ -1,4 +1,4 @@
-package com.company;
+package br.com.panvel.animal;
 
 public class Main {
 
