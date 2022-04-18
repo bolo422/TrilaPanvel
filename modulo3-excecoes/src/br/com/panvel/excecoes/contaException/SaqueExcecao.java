@@ -1,4 +1,4 @@
-package com.excecoes.contaException;
+package br.com.panvel.excecoes.contaException;
 
 public class SaqueExcecao extends Exception {
     SaqueExcecao(String message)

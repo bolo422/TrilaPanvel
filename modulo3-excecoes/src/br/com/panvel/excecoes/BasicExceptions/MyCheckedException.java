@@ -1,4 +1,4 @@
-package com.excecoes.BasicExceptions;
+package br.com.panvel.excecoes.BasicExceptions;
 
 public class MyCheckedException extends Exception {
     MyCheckedException(String message)

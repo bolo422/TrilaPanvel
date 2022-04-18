@@ -9,7 +9,7 @@ public abstract class Animal {
     }
 
     private String especie;
-    protected Alimentacao alimentacao;
+    protected Alimentacao alimentacao; // PROTECTED
 
     protected Animal(String especie, Alimentacao alimentacao)
     {

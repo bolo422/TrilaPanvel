@@ -1,4 +1,4 @@
-package com.excecoes.contaException;
+package br.com.panvel.excecoes.contaException;
 
 public class Conta {
     private double saldo;
