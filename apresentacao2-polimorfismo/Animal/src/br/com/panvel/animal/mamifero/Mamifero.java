@@ -1,4 +1,12 @@
 package br.com.panvel.animal.mamifero;
 
-public class Mamifero {
+import br.com.panvel.animal.Animal;
+
+public abstract class Mamifero extends Animal {
+
+    protected Mamifero(String especie, Alimentacao alimentacao)
+    {
+        super(especie,alimentacao);
+    }
+
 }
