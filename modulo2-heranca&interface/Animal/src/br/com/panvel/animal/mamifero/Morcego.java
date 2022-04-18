@@ -20,4 +20,13 @@ public class Morcego extends Mamifero implements Voador {
     {
         System.out.println("O morcego é um dos poucos mamíferos voadores!");
     }
+
+
+    public void Teste_Protected()
+    {
+        alimentacao = Alimentacao.carnivoro; // PROTECTED
+        // especie = "Morcego Grande"; // PRIVATE
+    }
+
+
 }

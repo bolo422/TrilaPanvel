@@ -1,6 +1,7 @@
 package br.com.panvel.tests;
 
 import br.com.panvel.animal.Animal;
+import br.com.panvel.animal.Animal.Alimentacao;
 import br.com.panvel.animal.aves.*;
 import br.com.panvel.animal.mamifero.*;
 import br.com.panvel.interfaces.Voador;
@@ -11,19 +12,16 @@ public class Test_Interfaces {
 
     public static void main(String[] args) {
         System.out.println("\nAgora a referência é um morcego: ");
-        Voador referenciDeVoador = new Morcego("morcego", Animal.Alimentacao.herbivoro);
-        referenciDeVoador.Voar();
+        Voador referenciaDeVoador = new Morcego("morcego", Alimentacao.herbivoro);
+        referenciaDeVoador.Voar();
 
         System.out.println("\nAgora a referência é uma águia: ");
-        referenciDeVoador = new Aguia("ave", Animal.Alimentacao.carnivoro);
-        referenciDeVoador.Voar();
+        referenciaDeVoador = new Aguia("ave", Alimentacao.carnivoro);
+        referenciaDeVoador.Voar();
 
         System.out.println("\nAgora a referência é um pombo: ");
-        referenciDeVoador = new Pombo("pombo", Animal.Alimentacao.onivoro);
-        referenciDeVoador.Voar();
+        referenciaDeVoador = new Pombo("pombo", Alimentacao.onivoro);
+        referenciaDeVoador.Voar();
 
-
-        String test = "aaa";
-        test = test.toLowerCase();
     }
 }

@@ -4,9 +4,10 @@ import br.com.panvel.animal.Animal;
 
 public abstract class Mamifero extends Animal {
 
-    protected Mamifero(String especie, Alimentacao alimentacao)
+    public Mamifero(String especie, Alimentacao alimentacao)
     {
         super(especie,alimentacao);
     }
+
 
 }
