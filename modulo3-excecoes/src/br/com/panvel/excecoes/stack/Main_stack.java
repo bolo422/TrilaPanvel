@@ -1,31 +1,37 @@
 package br.com.panvel.excecoes.stack;
 
+class Conta{
+    public int numero;
+}
+
 public class Main_stack {
     public static void main(String[] args) {
         System.out.println("Inicio do Main");
-        Metodo1();
-        System.out.println("Fim do Main");
-    }
-
-    static void Metodo1(){
-        System.out.println("Inicio Método 1");
 
         try {
-            Metodo2();
+
+            TesteNull();
+            TesteArithmetic();
+
         }
-        catch (Exception e)
+        catch (ArithmeticException | NullPointerException e)
         {
-            // tratar exception
+            e.printStackTrace();
         }
-        System.out.println("Fim Método 1");
+
+        System.out.println("Fim do Main");
+
     }
 
-    static void Metodo2(){
-        System.out.println("Inicio Método 2");
 
-        int test = 5/0;
-
-        System.out.println("Fim Método 2");
+    static void TesteNull() throws NullPointerException{
+        Conta c = null;
+        System.out.println(c.numero);
     }
+
+    static void TesteArithmetic(){
+        int t = 1/0;
+    }
+
 }
 
