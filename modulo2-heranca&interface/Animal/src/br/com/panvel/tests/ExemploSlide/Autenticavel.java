@@ -1,6 +1,6 @@
 package br.com.panvel.tests.ExemploSlide;
 
-interface Autenticavel {
+/*interface Autenticavel {
 
     default boolean Autenticar(String senha)
     {
@@ -48,5 +48,5 @@ class InterfaceTest {
 
     }
 }
-
+*/
 

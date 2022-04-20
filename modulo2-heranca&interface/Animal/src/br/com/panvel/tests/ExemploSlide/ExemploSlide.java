@@ -1,7 +1,7 @@
 package br.com.panvel.tests.ExemploSlide;
 
 
-/*abstract class Funcionario
+abstract class Funcionario
 {
     private double salario;
 
@@ -54,7 +54,7 @@ class Vendedor extends Funcionario
     public String getIdentificacaoF() {
         return super.identificacao;
     }
-}*/
+}
 
 
 
@@ -135,22 +135,25 @@ class ExemploSlide {
 
     public static void main(String[] args) {
 
-        /*Funcionario f = new Gerente();
+        Vendedor v = new Vendedor(1);
+
+        System.out.println(v.getIdentificacaoF());
+        System.out.println(v.getIdentificacaoV());
+
+
+/*        Funcionario func = new Vendedor();
+        func.Salario();
+
+        func = new Gerente();
+        func.Salario();
+
+        Funcionario f = new Gerente();
         System.out.println("R$ " + f.getSalario());
         f.Identificar();*/
 
 
 
-        /*Vendedor v = new Vendedor(1);
 
-        System.out.println(v.getIdentificacaoF());
-        System.out.println(v.getIdentificacaoV());*/
-
-        /*Funcionario func = new Vendedor();
-        func.Salario();
-
-        func = new Gerente();
-        func.Salario();*/
 
     }
 }

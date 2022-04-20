@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fcb344b-08b6-4729-bbce-965aac1079c1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/.idea/Animal.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/trycatch/MainTryCatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/animal/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/animal/mamifero/Morcego.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/animal/mamifero/Morcego.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/ExemploSlide/Autenticavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/ExemploSlide/Autenticavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/ExemploSlide/ExemploSlide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/ExemploSlide/ExemploSlide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/Test_Referencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/Test_Referencias.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/META-INF/modulo3-excecoes.kotlin_module" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="284DpD6C9sUrCvqiRAOQYlBvyvF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fcb344b-08b6-4729-bbce-965aac1079c1" name="Changes" comment="" />
+      <created>1650467144816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650467144816</updated>
+      <workItem from="1650467146003" duration="333000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

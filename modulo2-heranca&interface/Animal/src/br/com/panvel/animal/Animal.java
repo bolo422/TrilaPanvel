@@ -8,7 +8,7 @@ public abstract class Animal {
         onivoro
     }
 
-    private String especie;
+    protected String especie;
     protected Alimentacao alimentacao; // PROTECTED
 
     protected Animal(String especie, Alimentacao alimentacao)

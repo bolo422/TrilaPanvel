@@ -31,7 +31,7 @@ public class Test_Referencias {
 
         Pombo pom = new Pombo("pombo", Alimentacao.onivoro);
 
-        //gal = new Aguia("Aguia", Alimentacao.carnivoro);
+        //pom = new Aguia("Aguia", Alimentacao.carnivoro);
         //Pombo aguia = new Aguia("pombo", Alimentacao.onivoro);
 
 

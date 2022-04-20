@@ -2,7 +2,7 @@ package br.com.panvel.animal.mamifero;
 
 import br.com.panvel.interfaces.Voador;
 
-public class Morcego extends Mamifero implements Voador {
+public class Morcego extends Mamifero implements Voador{
 
     public Morcego(String especie, Alimentacao alimentacao)
     {
@@ -25,7 +25,7 @@ public class Morcego extends Mamifero implements Voador {
     public void Teste_Protected()
     {
         alimentacao = Alimentacao.carnivoro; // PROTECTED
-        // especie = "Morcego Grande"; // PRIVATE
+        especie = "Morcego Grande"; // PRIVATE
     }
 
 

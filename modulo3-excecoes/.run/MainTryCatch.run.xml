@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="MainTryCatch" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="br.com.panvel.excecoes.trycatch.MainTryCatch" />
+    <module name="modulo3-excecoes" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

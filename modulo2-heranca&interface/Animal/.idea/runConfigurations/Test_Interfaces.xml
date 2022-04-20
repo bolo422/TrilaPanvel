@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test_Interfaces" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="br.com.panvel.tests.Test_Interfaces" />
+    <module name="Animal" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
