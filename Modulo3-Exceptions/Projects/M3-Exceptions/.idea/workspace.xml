@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8fcb344b-08b6-4729-bbce-965aac1079c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/.idea/Animal.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/trycatch/MainTryCatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/animal/mamifero/Morcego.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/animal/mamifero/Morcego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/ExemploSlide/Autenticavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/ExemploSlide/Autenticavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/ExemploSlide/ExemploSlide.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/ExemploSlide/ExemploSlide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/Test_Referencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/../modulo2-heranca&amp;interface/Animal/src/br/com/panvel/tests/Test_Referencias.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/META-INF/modulo3-excecoes.kotlin_module" beforeDir="false" />
-    </list>
+    <list default="true" id="8fcb344b-08b6-4729-bbce-965aac1079c1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1650467144816</updated>
       <workItem from="1650467146003" duration="333000" />
+      <workItem from="1650467492919" duration="78000" />
     </task>
     <servers />
   </component>
