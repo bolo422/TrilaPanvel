@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39d6548b-7e3f-4432-a659-9adbdbab2dd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Animal.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/animal/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/panvel/animal/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/animal/mamifero/Morcego.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/panvel/animal/mamifero/Morcego.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/tests/ExemploSlide/Autenticavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/panvel/tests/ExemploSlide/Autenticavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/tests/ExemploSlide/ExemploSlide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/panvel/tests/ExemploSlide/ExemploSlide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/tests/Test_Referencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/panvel/tests/Test_Referencias.java" afterDir="false" />
-    </list>
+    <list default="true" id="39d6548b-7e3f-4432-a659-9adbdbab2dd9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -43,7 +36,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../modulo3-excecoes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Modulo3-Exceptions/Projects/M3-Exceptions" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -71,6 +64,7 @@
       <workItem from="1650368284166" duration="2181000" />
       <workItem from="1650370696606" duration="1828000" />
       <workItem from="1650467132997" duration="12000" />
+      <workItem from="1650470508104" duration="721000" />
     </task>
     <servers />
   </component>
