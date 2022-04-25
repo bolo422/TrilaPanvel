@@ -6,13 +6,15 @@ import java.io.IOException;
 public class MainException {
     public static void main (String[] args)
     {
+        unChecked();
+
         try
         {
             checked_one();
         }
         catch (IOException ex)
         {
-
+            System.out.println("catch");
         }
 
         checked_two();
@@ -26,7 +28,6 @@ public class MainException {
         throw new IOException();
     }
 
-    //2ª Forma: a própria implementação do método já trata a exceção.
     static void checked_two()
     {
         try
@@ -38,6 +39,8 @@ public class MainException {
 
         }
     }
+
+    //2ª Forma: a própria implementação do método já trata a exceção.
 
     // Unchecked (Runtime Exception) -> O programa não sabe que ela pode acontecer, então
     // não é obrigatório ter uma tratativa em compile time, porém se

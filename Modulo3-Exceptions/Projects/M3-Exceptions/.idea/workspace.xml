@@ -5,16 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fcb344b-08b6-4729-bbce-965aac1079c1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/MainError.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/slides/error/MainError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/slides/exception/MainException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Modulo2-Polimorfismo/Projects/Animal/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modulo2-Polimorfismo/Projects/Animal/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Modulo2-Polimorfismo/Projects/Animal/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Modulo2-Polimorfismo/Projects/Animal/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/MainException.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/MainStack.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/MainTryWithResources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/trycatchfinally/NestedTry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/trycatchfinally/TryWithResources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.run/MainTryCatch.run.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.run/MainTryCatch.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/trycatch/MainTryCatch.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/excecoes/trycatch/MainTryCatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/BasicExceptions/Main_BasicExceptions.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/BasicExceptions/Main_BasicExceptions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/BasicExceptions/MyCheckedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/BasicExceptions/MyCheckedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/BasicExceptions/MyUncheckedException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/BasicExceptions/MyUncheckedException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/contaException/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/contaException/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/contaException/Main_conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/contaException/Main_conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/contaException/SaqueExcecao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/contaException/SaqueExcecao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/slides/error/MainError.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/slides/error/MainError.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/slides/exception/MainException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/slides/exception/MainException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/stack/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/stack/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/stack/Main_stack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/stack/Main_stack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/trycatchfinally/MainTryCatchFinally.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/modulo3-excecoes/br/com/panvel/excecoes/trycatchfinally/MainTryCatchFinally.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/excecoes/slides/exception/MainException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/slides/exception/MainException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/excecoes/stack/Main_stack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/stack/Main_stack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/panvel/excecoes/trycatchfinally/MainTryCatchFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/panvel/excecoes/trycatchfinally/MainTryCatchFinally.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,25 +75,25 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\TrilaPanvel\Modulo3-Exceptions\Projects\M3-Exceptions" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.panvel.excecoes.trycatchfinally" />
       <recent name="br.com.panvel.excecoes.slides.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainException">
-    <configuration name="MainException" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="br.com.panvel.excecoes.slides.exception.MainException" />
-      <module name="modulo3-excecoes" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NestedTry">
     <list>
-      <item itemvalue="Application.MainTryCatch" />
       <item itemvalue="Application.MainError" />
+      <item itemvalue="Application.MainStack" />
+      <item itemvalue="Application.NestedTry" />
       <item itemvalue="Application.MainException" />
+      <item itemvalue="Application.MainTryCatch" />
+      <item itemvalue="Application.MainTryWithResources" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -97,6 +109,7 @@
       <workItem from="1650476195980" duration="2376000" />
       <workItem from="1650630169119" duration="843000" />
       <workItem from="1650644886466" duration="3110000" />
+      <workItem from="1650836017045" duration="11546000" />
     </task>
     <servers />
   </component>

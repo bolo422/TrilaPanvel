@@ -7,30 +7,32 @@ class Conta{
 public class Main_stack {
     public static void main(String[] args) {
         System.out.println("Inicio do Main");
-
         try {
-
-            TesteNull();
-            TesteArithmetic();
-
+            System.out.println("Inicio do Try");
+            TesteNull(false);
+            TesteArithmetic(true);
+            System.out.println("Fim do Try");
         }
-        catch (ArithmeticException | NullPointerException e)
+        catch (NullPointerException | ArithmeticException e)
         {
-            e.printStackTrace();
+            System.out.println(e + ": " + e.getMessage());
         }
-
         System.out.println("Fim do Main");
 
     }
 
 
-    static void TesteNull() throws NullPointerException{
+    static void TesteNull(boolean b) {
         Conta c = null;
-        System.out.println(c.numero);
+        if(b)
+            System.out.println(c.numero);
     }
 
-    static void TesteArithmetic(){
-        int t = 1/0;
+    static void TesteArithmetic(boolean b)
+    {
+        int t;
+        if(b)
+            t = 1/0;
     }
 
 }
