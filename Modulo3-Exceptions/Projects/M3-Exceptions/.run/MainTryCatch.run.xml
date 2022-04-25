@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="MainTryCatch" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="br.com.panvel.excecoes.trycatchfinally.MainTryCatchFinally" />
+    <option name="MAIN_CLASS_NAME" value="br.com.panvel.excecoes.slides.trycatchfinally.MainTryCatchFinally" />
     <module name="modulo3-excecoes" />
     <method v="2">
       <option name="Make" enabled="true" />

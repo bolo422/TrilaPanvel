@@ -1,4 +1,4 @@
-package br.com.panvel.excecoes.contaException;
+package br.com.panvel.excecoes.slides.contaException;
 
 public class Conta {
     private double saldo;

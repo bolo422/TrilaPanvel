@@ -1,4 +1,4 @@
-package br.com.panvel.excecoes.trycatchfinally;
+package br.com.panvel.excecoes.slides.trycatchfinally;
 
 public class MainTryCatchFinally {
     public static void main (String[] args)

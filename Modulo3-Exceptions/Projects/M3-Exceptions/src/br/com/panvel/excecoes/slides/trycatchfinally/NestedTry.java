@@ -1,7 +1,4 @@
-package br.com.panvel.excecoes.trycatchfinally;
-
-import java.io.BufferedReader;
-import java.io.FileReader;
+package br.com.panvel.excecoes.slides.trycatchfinally;
 
 public class NestedTry {
     public static void main (String[] args)

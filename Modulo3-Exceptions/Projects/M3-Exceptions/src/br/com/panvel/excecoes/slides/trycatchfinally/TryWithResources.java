@@ -1,7 +1,6 @@
-package br.com.panvel.excecoes.trycatchfinally;
+package br.com.panvel.excecoes.slides.trycatchfinally;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 public class TryWithResources {

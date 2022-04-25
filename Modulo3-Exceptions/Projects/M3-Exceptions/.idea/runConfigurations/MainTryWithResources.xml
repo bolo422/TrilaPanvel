@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="MainTryWithResources" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="br.com.panvel.excecoes.trycatchfinally.TryWithResources" />
+    <option name="MAIN_CLASS_NAME" value="br.com.panvel.excecoes.slides.trycatchfinally.TryWithResources" />
     <module name="modulo3-excecoes" />
     <method v="2">
       <option name="Make" enabled="true" />

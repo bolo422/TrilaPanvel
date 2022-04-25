@@ -1,4 +1,4 @@
-package br.com.panvel.excecoes.stack;
+package br.com.panvel.excecoes.slides.stack;
 
 class Conta{
     public int numero;
