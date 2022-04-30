@@ -5,7 +5,6 @@ public class DivisaoPorZero extends RuntimeException {
     {
         super(message);
     }
-
     DivisaoPorZero()
     {
         super("Não pode dividir por zero!");

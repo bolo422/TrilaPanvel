@@ -6,8 +6,7 @@ public abstract class Calculadora {
     {
         if(divisor == 0)
             throw new DivisaoPorZero();
-        else
-            return dividendo/divisor;
+        return dividendo/divisor;
     }
 
     static double dividirPares(double dividendo, double divisor) throws DivisaoComImpar

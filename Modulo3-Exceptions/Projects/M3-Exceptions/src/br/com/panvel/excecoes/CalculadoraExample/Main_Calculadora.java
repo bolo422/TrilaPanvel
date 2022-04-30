@@ -15,12 +15,15 @@ public class Main_Calculadora {
         }
         catch (DivisaoComImpar ex)
         {
-            System.out.println("EXCPETION: " + ex + ex.getMessage());
+            System.out.println("EXCPETION: " + ex);
         }
 
 
         // Unchecked
         System.out.println("5/0 = " + Calculadora.dividir(5, 0));
+
+        // Demonstração de Checked sem try catch
+        // Calculadora.dividirPares(2,2);
     }
 
 }
