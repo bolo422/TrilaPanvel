@@ -1,4 +1,4 @@
-package br.com.panvel.modulo8.slides.chainOfResponsability;
+package br.com.panvel.modulo8.slides.chainAndTemplate;
 
 public class Salesman {
     private double salary;

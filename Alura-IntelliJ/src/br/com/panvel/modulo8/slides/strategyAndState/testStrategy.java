@@ -1,6 +1,6 @@
-package br.com.panvel.modulo8.slides.strategy;
+package br.com.panvel.modulo8.slides.strategyAndState;
 
-import br.com.panvel.modulo8.slides.strategy.keys.Up;
+import br.com.panvel.modulo8.slides.strategyAndState.keys.Up;
 
 public class testStrategy {
     public static void main(String[] args) {

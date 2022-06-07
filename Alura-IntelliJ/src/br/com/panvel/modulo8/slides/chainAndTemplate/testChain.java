@@ -1,4 +1,4 @@
-package br.com.panvel.modulo8.slides.chainOfResponsability;
+package br.com.panvel.modulo8.slides.chainAndTemplate;
 
 public class testChain {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package br.com.panvel.modulo8.slides.chainOfResponsability.bonuses;
+package br.com.panvel.modulo8.slides.chainAndTemplate.bonuses;
 
-import br.com.panvel.modulo8.slides.chainOfResponsability.Salesman;
+import br.com.panvel.modulo8.slides.chainAndTemplate.Salesman;
 
 public class AvarageEvaluationBonus extends Bonus{
     public AvarageEvaluationBonus(Bonus next) {
