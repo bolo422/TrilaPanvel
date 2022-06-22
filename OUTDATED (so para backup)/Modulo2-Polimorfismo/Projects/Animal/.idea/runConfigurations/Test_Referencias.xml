@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Test_Referencias" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="br.com.panvel.tests.Test_Referencias" />
-    <module name="Animal" />
-    <method v="2">
-      <option name="Make" enabled="true" />
-    </method>
-  </configuration>
-</component>

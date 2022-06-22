@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="ExemploSlide" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="br.com.panvel.tests.ExemploSlide.ExemploSlide" />
-    <module name="Animal" />
-    <method v="2">
-      <option name="Make" enabled="true" />
-    </method>
-  </configuration>
-</component>

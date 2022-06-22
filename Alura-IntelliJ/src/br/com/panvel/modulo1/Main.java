@@ -5,6 +5,15 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Tests.Menu();
+
+        int numero = 4;
+
+        numero = 50;
+
+        System.out.println(numero);
+
+
+
+        //Tests.Menu();
     }
 }
