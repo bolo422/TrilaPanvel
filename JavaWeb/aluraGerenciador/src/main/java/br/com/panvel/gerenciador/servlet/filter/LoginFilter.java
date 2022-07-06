@@ -17,7 +17,7 @@ import java.io.IOException;
 public class LoginFilter extends HttpFilter implements Filter {
 
 	public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain chain) throws IOException, ServletException {
-		System.out.println("LoginFilter");
+		//System.out.println("LoginFilter");
 		HttpServletRequest request = (HttpServletRequest) servletRequest;
 		HttpServletResponse response = (HttpServletResponse) servletResponse;
 		
@@ -30,6 +30,18 @@ public class LoginFilter extends HttpFilter implements Filter {
 		}
 		
 		chain.doFilter(request, response);
+	}
+	
+	@Override
+	public void init() throws ServletException {
+		// TODO Auto-generated method stub
+		super.init();
+	}
+	
+	@Override
+	public void destroy() {
+		// TODO Auto-generated method stub
+		super.destroy();
 	}
 
 }

@@ -19,29 +19,30 @@ public class CompaniesService extends HttpServlet{
 
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
-		XStream xstream = new XStream();
-		String xml = xstream.toXML(DataBase.getCompanies());
+
+		String accept = request.getHeader("Accept");
 		
-		response.setContentType("application/xml");
-		response.getWriter().print(xml);
+		String[] params = accept.split(",");
 		
-		/*
-		String param = request.getParameter("type");
-		if(param.equals("json")) {
-			Gson gson = new Gson();
-			String json = gson.toJson(DataBase.getCompanies());
-			
-			response.setContentType("application/json");
-			response.getWriter().print(json);
+		for(String param : params) {
+			if(param.endsWith("json")) {
+				Gson gson = new Gson();
+				String json = gson.toJson(DataBase.getCompanies());
+				
+				response.setContentType("application/json");
+				response.getWriter().print(json);
+				break;
+			}
+			else if(param.endsWith("xml")){
+				XStream xstream = new XStream();
+				String xml = xstream.toXML(DataBase.getCompanies());
+				
+				response.setContentType("application/xml");
+				response.getWriter().print(xml);
+				break;
+			}
 		}
-		else if(param.equals("xml")){
-			XStream xstream = new XStream();
-			String xml = xstream.toXML(DataBase.getCompanies());
-			
-			response.setContentType("application/xml");
-			response.getWriter().print(xml);
-		}
-		*/
+		
 	}
 
 }

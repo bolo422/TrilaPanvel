@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
+import jakarta.servlet.FilterConfig;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
@@ -13,7 +14,7 @@ public class TimeMonitoringFilter implements Filter {
 
 	@Override
 	public void doFilter(ServletRequest request, ServletResponse response,  FilterChain chain) throws IOException, ServletException {
-		System.out.println("TimeMonitoringFilter");
+		//System.out.println("TimeMonitoringFilter");
 
 		long antes = System.currentTimeMillis();
 		
@@ -24,6 +25,18 @@ public class TimeMonitoringFilter implements Filter {
 		//System.out.println("Tempo de execução da ação " + action + " -> " + (depois-antes));
 		
 		
+	}
+	
+	@Override
+	public void init(FilterConfig filterConfig) throws ServletException {
+		// TODO Auto-generated method stub
+		Filter.super.init(filterConfig);
+	}
+	
+	@Override
+	public void destroy() {
+		// TODO Auto-generated method stub
+		Filter.super.destroy();
 	}
 
 }

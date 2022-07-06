@@ -3,4 +3,18 @@
     <fullyQualifiedTypeName name="br.com.panvel.gerenciador.servlet.editor.CompanyEditorServlet"/>
     <fullyQualifiedTypeName name="java.lang.NullPointerException"/>
     <fullyQualifiedTypeName name="jakarta.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="br.com.panvel.gerenciador.modelo.User"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.Filter"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebFilter"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletRequest"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.http.HttpServletResponse"/>
+    <fullyQualifiedTypeName name="jakarta.servlet.annotation.WebServlet"/>
+    <fullyQualifiedTypeName name="br.com.panvel.gerenciador.servlet.CompaniesService"/>
+    <fullyQualifiedTypeName name="com.google.gson.Gson"/>
+    <fullyQualifiedTypeName name="br.com.panvel.gerenciador.modelo.DataBase"/>
+    <fullyQualifiedTypeName name="com.thoughtworks.xstream.mapper.XStream11XmlFriendlyMapper"/>
+    <fullyQualifiedTypeName name="com.thoughtworks.xstream.XStream"/>
+    <fullyQualifiedTypeName name="br.com.panvel.gerenciador.servlet.actions.IAction"/>
+    <fullyQualifiedTypeName name="org.apache.http.client.fluent.Request"/>
 </qualifiedTypeNameHistroy>

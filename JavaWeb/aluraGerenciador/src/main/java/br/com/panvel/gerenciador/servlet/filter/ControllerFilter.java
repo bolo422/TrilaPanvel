@@ -20,7 +20,7 @@ import br.com.panvel.gerenciador.servlet.actions.IAction;
 
 public class ControllerFilter extends HttpFilter implements Filter {
 	public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain chain) throws IOException, ServletException {
-		System.out.println("EntryFilter");
+		//System.out.println("EntryFilter");
 		HttpServletRequest request = (HttpServletRequest) servletRequest;
 		HttpServletResponse response = (HttpServletResponse) servletResponse;
 		
@@ -47,5 +47,16 @@ public class ControllerFilter extends HttpFilter implements Filter {
 		
 	}
 
+	@Override
+	public void init() throws ServletException {
+		// TODO Auto-generated method stub
+		super.init();
+	}
+	
+	@Override
+	public void destroy() {
+		// TODO Auto-generated method stub
+		super.destroy();
+	}
 
 }

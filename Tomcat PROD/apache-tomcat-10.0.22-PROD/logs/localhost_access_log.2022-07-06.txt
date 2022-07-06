@@ -1,0 +1,16 @@
+127.0.0.1 - - [06/Jul/2022:19:32:01 -0300] "GET /gerenciador/ HTTP/1.1" 304 -
+127.0.0.1 - - [06/Jul/2022:19:32:01 -0300] "GET /gerenciador/styles.css HTTP/1.1" 304 -
+127.0.0.1 - - [06/Jul/2022:19:32:03 -0300] "GET /gerenciador/companies HTTP/1.1" 200 391
+127.0.0.1 - - [06/Jul/2022:19:32:06 -0300] "GET /gerenciador/entry?action=LoginForm HTTP/1.1" 200 430
+127.0.0.1 - - [06/Jul/2022:19:32:08 -0300] "GET /gerenciador/entry?action=ListCompanies HTTP/1.1" 302 -
+127.0.0.1 - - [06/Jul/2022:19:32:08 -0300] "GET /gerenciador/entry?action=LoginForm HTTP/1.1" 200 430
+127.0.0.1 - - [06/Jul/2022:19:32:10 -0300] "POST /gerenciador/entry?action=Login& HTTP/1.1" 302 -
+127.0.0.1 - - [06/Jul/2022:19:32:10 -0300] "GET /gerenciador/entry?action=ListCompanies HTTP/1.1" 200 1016
+127.0.0.1 - - [06/Jul/2022:19:32:13 -0300] "GET /gerenciador/entry?action=ChangeOrder&id=2&up=true HTTP/1.1" 302 -
+127.0.0.1 - - [06/Jul/2022:19:32:13 -0300] "GET /gerenciador/entry?action=ListCompanies HTTP/1.1" 200 1016
+127.0.0.1 - - [06/Jul/2022:19:32:13 -0300] "GET /gerenciador/entry?action=ChangeOrder&id=1&up=true HTTP/1.1" 302 -
+127.0.0.1 - - [06/Jul/2022:19:32:14 -0300] "GET /gerenciador/entry?action=ListCompanies HTTP/1.1" 200 1016
+127.0.0.1 - - [06/Jul/2022:19:32:16 -0300] "GET /gerenciador/entry?action=RemoveCompany&id=1 HTTP/1.1" 302 -
+127.0.0.1 - - [06/Jul/2022:19:32:16 -0300] "GET /gerenciador/entry?action=ListCompanies HTTP/1.1" 200 691
+127.0.0.1 - - [06/Jul/2022:19:32:17 -0300] "GET /gerenciador/entry?action=Logout HTTP/1.1" 302 -
+127.0.0.1 - - [06/Jul/2022:19:32:17 -0300] "GET /gerenciador/entry?action=LoginForm HTTP/1.1" 200 430
