@@ -1,0 +1,14 @@
+package br.com.panvel;
+
+import org.apache.http.client.fluent.Request;
+
+public class ClienteWeb {
+
+	public static void main(String[] args) {
+		
+		Request.Post("http://localhost:8080/gerenciador/companies")
+		.execute().returnContent();
+
+	}
+
+}

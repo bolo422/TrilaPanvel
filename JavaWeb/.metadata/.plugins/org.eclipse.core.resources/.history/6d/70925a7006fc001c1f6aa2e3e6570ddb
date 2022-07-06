@@ -1,0 +1,14 @@
+package br.com.panvel.gerenciador.servlet.actions;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class RemoveCompany implements IAction{
+
+	@Override
+	public void execute(HttpServletRequest req, HttpServletResponse resp) {
+		
+		
+	}
+
+}

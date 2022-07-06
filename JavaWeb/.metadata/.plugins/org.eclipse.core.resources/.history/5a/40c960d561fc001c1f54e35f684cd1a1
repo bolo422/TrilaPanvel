@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+:root{
+	background: #383838;
+	color: wheat;
+	
+}
+
+a {
+  background-color: #4CAF50; /* Green */
+  border: 20px;
+  color: white;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+}
+
+a:hover {
+  background-color: #a0d6a4; /* Green */
+  color: white;
+}
+
+.listCompanyElement {
+	margin: 5px 0;
+	border: 2px white;
+	border-style: solid;
+}
+
+.listCompanyElement a {
+	  padding: 1px 5px;
+	  font-size: 14px;
+	  border-radius: 2px;
+	  margin: 0 3px;
+}
+
+.listCompanyElement a:hover {
+  background-color: #a0d6a4; /* Green */
+  color: white;
+}

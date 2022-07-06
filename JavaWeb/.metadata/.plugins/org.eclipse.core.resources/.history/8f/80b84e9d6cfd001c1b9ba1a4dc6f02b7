@@ -1,0 +1,14 @@
+<html>
+<link rel="stylesheet" href="styles.css">
+<body>
+Bem vindo!
+<br>
+
+		<p> <a href="entry?action=LoginForm">LOGIN</a> </p>
+		<p> <a href="entry?action=ListCompanies">Listar</a> </p>
+		<p> <a href="entry?action=NewCompanyForm">Form</a> </p>
+		<p> <a href="gerenciador/companies">JSON</a> </p>
+		<p> <a href="entry?action=NewCompanyForm">XML</a> </p>
+</body>
+
+</html>

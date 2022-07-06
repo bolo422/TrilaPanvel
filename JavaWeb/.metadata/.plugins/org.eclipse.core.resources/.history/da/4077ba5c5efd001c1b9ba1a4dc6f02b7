@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+:root{
+	background: #383838;
+	color: wheat;
+	
+}
+
+a {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  padding: 3px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  margin: 5px;
+}
+
+a:hover {
+  background-color: #a0d6a4; /* Green */
+  color: white;
+}
+
+.listCompanyElement {
+	margin: 8px 0;
+}
+
+.listCompanyElement a {
+	  padding: 1px 5px;
+	  font-size: 14px;
+	  border-radius: 2px;
+	  margin: 0 3px;
+	  background-color: #6a436b;
+}
+
+.listCompanyElement a:hover {
+  background-color: #b88eb9;
+  color: white;
+}
+
+.isubmit{
+  background-color: #400080;
+  color: white;
+  padding: 6px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  margin: 10px;
+  border: 2px;
+  border: #310062;
+  border-style: solid;
+}
+
+input {
+  background-color: #400080;
+  border: 2px;
+  border: #310062;
+  border-style: solid;
+  color: white;
+  margin: 5px;
+}
+
+.isubmit:hover {
+  background-color: #9a35ff;
+  color: white;
+}
+
+.logoutButton{
+	background-color: #9a35ff;
+}

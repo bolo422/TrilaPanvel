@@ -1,0 +1,10 @@
+package br.com.panvel;
+
+public class ClienteWeb {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

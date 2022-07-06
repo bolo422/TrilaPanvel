@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="J2EE_EXPORT_OVERWRITE" value="true"/>
+	<item key="J2EE_EXPORT_SOURCE" value="false"/>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="NULL_RUNTIME"/>
+		<item value="Apache Tomcat v10.0"/>
+	</list>
+	<list key="J2EE_IMPORT_EJB">
+		<item value="C:\Users\crow1\Desktop\jakarta.servlet.jsp.jstl-2.0.0.jar"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="D:\GitHub\TrilhaPanvel\Tomcat PROD\aluraGerenciador.war"/>
+	</list>
+</section>

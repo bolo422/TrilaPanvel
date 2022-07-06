@@ -1,0 +1,22 @@
+package br.com.panvel.gerenciador.servlet.actions;
+
+import java.util.List;
+
+import br.com.panvel.gerenciador.modelo.Company;
+import br.com.panvel.gerenciador.modelo.DataBase;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class ListCompanies implements IAction{
+
+	@Override
+	public void execute(HttpServletRequest req, HttpServletResponse resp) {
+		List<Company> list = DataBase.getCompanies();
+		RequestDispatcher rd = req.getRequestDispatcher("/listCompanies.jsp");
+		req.setAttribute("comList", list);
+		rd.forward(req, resp);
+		
+	}
+
+}

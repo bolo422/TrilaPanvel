@@ -1,0 +1,58 @@
+package br.com.panvel.gerenciador.servlet;
+
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+
+import br.com.panvel.gerenciador.servlet.actions.ChangeOrder;
+import br.com.panvel.gerenciador.servlet.actions.CompanyEditor;
+import br.com.panvel.gerenciador.servlet.actions.EditCompany;
+import br.com.panvel.gerenciador.servlet.actions.IAction;
+import br.com.panvel.gerenciador.servlet.actions.ListCompanies;
+import br.com.panvel.gerenciador.servlet.actions.NewCompany;
+import br.com.panvel.gerenciador.servlet.actions.NewCompanyForm;
+import br.com.panvel.gerenciador.servlet.actions.RemoveCompany;
+import br.com.panvel.gerenciador.servlet.actions.UpdateIndex;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
+
+@WebServlet(urlPatterns="/entry")
+public class EntryServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		HttpSession session = request.getSession();
+		if(session.getAttribute("loggedUser") == null) {
+			response.sendRedirect(t)
+		}
+		
+		
+		String actionPath = "br.com.panvel.gerenciador.servlet.actions.";
+		
+		try {
+			// reflection api
+			IAction action = (IAction)Class.forName(actionPath + request.getParameter("action")).getDeclaredConstructor().newInstance();
+			
+			String[] act = action.execute(request, response).split(":");
+			switch(act[0])
+			{
+				case "forward": RequestDispatcher rd = request.getRequestDispatcher("WEB-INF/view/" + act[1]);
+					rd.forward(request, response);
+					break;
+				case "redirect": response.sendRedirect(act[1]);
+					break;
+			}
+			
+		}catch (InstantiationException | IllegalAccessException | ClassNotFoundException | IllegalArgumentException | InvocationTargetException | NoSuchMethodException | SecurityException e) {
+			throw new ServletException(e);
+		}catch(NullPointerException e){
+			throw new NullPointerException(" ->> Parâmetro inválido { " + e.getMessage() + " } <<-");
+		}		
+	}
+
+}

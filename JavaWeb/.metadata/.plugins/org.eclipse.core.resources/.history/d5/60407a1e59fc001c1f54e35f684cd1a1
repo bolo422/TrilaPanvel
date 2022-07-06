@@ -1,0 +1,28 @@
+package br.com.panvel.gerenciador.servlet.actions;
+
+import java.io.IOException;
+
+import br.com.panvel.gerenciador.modelo.DataBase;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+public class ChangeComapniesOrder implements IAction{
+
+	@Override
+	public void execute(HttpServletRequest req, HttpServletResponse resp){
+		Integer id = Integer.valueOf(req.getParameter("id"));
+		Boolean moveUp = Boolean.valueOf(req.getParameter("up"));
+		DataBase.changeOrder(moveUp, id);
+		
+		try {
+			resp.sendRedirect("entry?action=list");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return "redirect:entry?action=list";
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+<html>
+<link rel="stylesheet" href="styles.css">
+<body>
+Bem vindo!
+<br>
+		<p> <a href="/aluraGerenciador/entry?action=list">Listar</a> </p>
+<br>
+		<p> <a href="/gerenciador/formNewCompany.jsp">Form</a> </p>
+</body>
+
+</html>

@@ -1,0 +1,1 @@
+User: ${loggedUser.login} <a class=" href="entry?action=Logout">Logout</a>

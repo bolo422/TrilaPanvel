@@ -1,0 +1,28 @@
+package br.com.panvel.gerenciador.servlet.listCompanies;
+
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.List;
+
+import br.com.panvel.gerenciador.modelo.DataBase;
+import br.com.panvel.gerenciador.servlet.Company;
+
+@WebServlet(urlPatterns="/list-companies")
+public class ListCompaniesServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    
+	@Override
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+		List<Company> list = DataBase.getCompanies();
+		RequestDispatcher rd = request.getRequestDispatcher("/listCompanies.jsp");
+		request.setAttribute("comList", list);
+		rd.forward(request, response);
+	}
+}

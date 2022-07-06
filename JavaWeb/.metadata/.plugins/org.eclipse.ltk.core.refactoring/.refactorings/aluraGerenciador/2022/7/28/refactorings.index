@@ -1,0 +1,39 @@
+1656941920426	Delete elements
+1656942055048	Delete elements
+1656984937040	Move compilation unit
+1656984951638	Move compilation unit
+1656984955823	Move compilation unit
+1656986186206	Move compilation unit
+1656986203974	Delete elements
+1656986266728	Copy compilation unit
+1656986276818	Copy compilation unit
+1656986288047	Copy compilation unit
+1656986297042	Copy compilation unit
+1656986306412	Copy compilation unit
+1656986561933	Copy compilation unit
+1657023263776	Rename type 'Redirect'
+1657023287392	Delete element
+1657023302644	Delete elements
+1657023537821	Move 'styles.css' to 'webapp'
+1657026809374	Move 'formNewCompany.jsp' to 'WEB-INF'
+1657026842979	Move 'formNewCompany.jsp' to 'webapp'
+1657026855788	Move 'styles.css' to 'WEB-INF'
+1657026891609	Move 4 resources to 'view'
+1657027002398	Move 'styles.css' to 'view'
+1657027014785	Move 'styles.css' to 'webapp'
+1657031380643	Rename type 'UpdateCompnayIndex'
+1657031390138	Rename type 'ChangeComapniesOrder'
+1657118774579	Rename type 'Usuario'
+1657118801493	Rename field 'senha'
+1657118821865	Rename method 'getSenha'
+1657118829545	Rename method 'setSenha'
+1657118837619	Rename local variable 'senha'
+1657118847497	Rename local variable 'senha'
+1657119300904	Copy file
+1657120693538	Rename field 'userList'
+1657133944493	Rename resource 'Logout.jsp'
+1657135356267	Move compilation unit
+1657137425249	Rename type 'MonitoringFilter'
+1657138174178	Delete element
+1657138294141	Rename type 'EntryFilter'
+1657140973797	Delete element
