@@ -1,9 +1,0 @@
-INDEX VERSION 1.131
-C:\Alura-eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2284424016.index
-\aluraGerenciador\src\main\java
-C:\Alura-eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1395134652.index
-\aluraGerenciador\src\main\java
-C:\Alura-eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1879654302.index
-\aluraGerenciador\src\main\java
-C:\Alura-eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1579932622.index
-\aluraGerenciador\src\main\java

@@ -1,7 +1,0 @@
-package br.com.panvel.gerenciador.servlet;
-
-import jakarta.servlet.Filter;
-
-public class MonitoringFilter implements Filter {
-
-}

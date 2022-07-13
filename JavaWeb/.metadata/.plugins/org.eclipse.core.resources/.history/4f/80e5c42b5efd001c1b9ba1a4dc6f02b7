@@ -1,3 +1,0 @@
-User: ${loggedUser.login}
-<a href="entry?action=Logout">Logout</a>
-</h2>

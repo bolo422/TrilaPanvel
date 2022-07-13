@@ -1,8 +1,0 @@
-INDEX VERSION 1.4+C:\Alura-eclipse-workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-1586752690.index
-1370080981.index
-2284424016.index
-356432985.index
-169675920.index
-1474743131.index
-2941729096.index

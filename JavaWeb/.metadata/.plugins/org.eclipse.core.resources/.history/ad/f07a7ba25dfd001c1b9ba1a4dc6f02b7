@@ -1,5 +1,0 @@
-<header>
-	<h2>User: ${loggedUser.login}
-	<a href="entry?action=Logout">Logout</a>
-	</h2>
-</header>
