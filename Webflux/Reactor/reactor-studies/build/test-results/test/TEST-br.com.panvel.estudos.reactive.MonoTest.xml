@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.panvel.estudos.reactive.MonoTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-09-29T12:08:06" hostname="erick-hasse" time="0.073">
+  <properties/>
+  <testcase name="monoSubscriber()" classname="br.com.panvel.estudos.reactive.MonoTest" time="0.073"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO reactor.Mono.Just.1 - | onSubscribe([Synchronous Fuseable] Operators.ScalarSubscription)
+[Test worker] INFO reactor.Mono.Just.1 - | request(unbounded)
+[Test worker] INFO reactor.Mono.Just.1 - | onNext(Erick)
+[Test worker] INFO reactor.Mono.Just.1 - | onComplete()
+[Test worker] INFO br.com.panvel.estudos.reactive.MonoTest - --------------
+[Test worker] INFO reactor.Mono.Just.1 - | onSubscribe([Synchronous Fuseable] Operators.ScalarSubscription)
+[Test worker] INFO reactor.Mono.Just.1 - | request(unbounded)
+[Test worker] INFO reactor.Mono.Just.1 - | onNext(Erick)
+[Test worker] INFO reactor.Mono.Just.1 - | onComplete()
+]]></system-err>
+</testsuite>

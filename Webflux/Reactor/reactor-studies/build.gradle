@@ -11,7 +11,31 @@ repositories {
 
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testImplementation 'org.projectlombok:lombok:1.18.22'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    testCompileOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    implementation platform('io.projectreactor:reactor-bom:2020.0.23')
+    implementation 'io.projectreactor:reactor-core'
+
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+//    testCompile 'io.projectreactor:reactor-test'
+    testCompileOnly 'io.projectreactor:reactor-test'
+    testRuntimeOnly 'io.projectreactor:reactor-test'
+
+    testCompileOnly 'org.projectlombok:lombok:1.18.12'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.12'
+
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    implementation group: 'org.slf4j', name: 'slf4j-api', version: '2.0.2'
+
+    // https://mvnrepository.com/artifact/org.slf4j/slf4j-simple
+    testImplementation group: 'org.slf4j', name: 'slf4j-simple', version: '2.0.2'
+
+
 }
 
 test {

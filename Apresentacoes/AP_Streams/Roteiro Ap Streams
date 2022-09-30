@@ -1,0 +1,25 @@
+1. Class cliente
+2. ForEach
+3. Stream
+  3.1 diferença entre stream (fluxo de dados)
+4. Operações intermediárias
+  4.1 Skip
+  4.2 Limit
+  4.3 Distinct
+  4.4 Até agora todos foram filtros primários
+  4.5 Filter
+  4.6 Map
+  4.7 Filtros primários > Filter > Map
+5. Operações Finais
+  5.1 Count
+  5.2 Min e Max
+  5.3 Collect
+  	5.3.1 toList
+  	5.3.2 groupingBy
+  	5.3.3 joining
+6. loops explícitos vs implícitos
+    6.1 Implícito: o compliador gerencia e decide como vai fazer o loop
+    6.2 muito mais fácil de entender um código implícito
+7. Stream Parallel (próximo assunto)
+
+https://rinaldo.dev/java-8-streams-pare-de-usar-for-e-simplifique-seu-codigo/
